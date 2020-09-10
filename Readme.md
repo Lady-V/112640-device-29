@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Власта Шараватова](https://up.htmlacademy.ru/htmlcss/29/user/112640).
-* Наставник: `Неизвестно`.
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
