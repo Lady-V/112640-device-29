@@ -1,0 +1,509 @@
+/* Variables */
+
+:root {
+  --basic-black: #000000;
+  --basic-dark: #363636;
+  --basic-white: #ffffff;
+  --basic-grey: #464646;
+  --basic-half-grey: #7e7e7e;
+  --basic-grey-light: #E5E5E5;
+
+
+  special-yellow: #f7e296;
+  special-green: #91c92f;
+  special-yellow-dark: #f0c52e;
+
+  special_30: rgba(255, 255, 255, 0.3);
+  special_60: rgba(255, 255, 255, 0.6);
+  special: #f6dada;
+}
+
+
+/* Global */
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Main-header */
+
+.main-header {
+  background-color: #f7e296;
+}
+
+.inner-page .main-header {
+  background-color: #f7e296;
+}
+
+
+
+
+/* Main navigation */
+
+
+.main-header-nav {
+  color: #000000;
+}
+
+
+.main-header-nav-site-first-list {
+  list-style: none;
+}
+
+
+.main-header-nav-site-second-list {
+  list-style: none;
+}
+
+
+
+.main-header-nav-site-first-list li {
+  font-family: Open Sans;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+
+.main-header-nav-site-second-list li {
+  font-family: Gilroy;
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+
+.main-header-nav-site-first-list a {
+  color: var(--basic-black);
+}
+
+
+
+.main-header-nav-site-second-list a {
+  color: #000000;
+}
+
+
+
+/* Promo Slider */
+
+
+.page-container-promo {
+  background-color: transparent;
+}
+
+
+.page-container-promo-slider-text {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-style: extrabold;
+  line-height: 58px;
+}
+
+
+.page-container-promo-slider-description {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+
+.page-container-promo-slider-features-item h3 {
+  font-family: Gilroy;
+  font-size: 36px;
+  font-style: normal;
+}
+
+
+.page-container-promo-slider-features-item p {
+  font-family: Gilroy;
+  font-size: 13px;
+  font-style: normal;
+}
+
+
+
+/* Popular */
+
+
+.page-container-popular-list {
+  list-style: none;
+}
+
+.page-container-popular-list li {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: extrabold;
+  line-height: 22px;
+  text-align: center;
+}
+
+
+
+
+/* Service */
+
+
+.page-container-service-block {
+  color: var(--basic-black);
+  background-color: var(--basic-grey-light);
+}
+
+
+.page-container-service-list {
+  list-style: none;
+}
+
+
+
+.page-container-service-list h3 {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-style: extrabold;
+  line-height: 58px;
+}
+
+
+
+.page-container-service-list p {
+  font-family: Open Sans;
+  font-size: 15px;
+
+}
+
+
+
+/* Logos */
+
+
+.page-container-company-logos {
+  background-color: transparent;
+}
+
+
+
+
+/* Conacts */
+
+
+.page-container-contacts-block {
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+
+.page-container-contacts-title {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-style: normal;
+  line-height: 58px;
+}
+
+
+.page-container-contacts-info {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+
+/* About us */
+
+
+
+.page-container-contacts-about-us-block {
+  color: var(--basic-black);
+  background-color: transparent;
+}
+
+
+.page-container-contacts-about-us-title {
+  font-family: Gilroy;
+  font-size: 47px;
+  font-style: extrabold;
+  line-height: 58px;
+}
+
+
+.page-container-contacts-about-us-description {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 28px;
+}
+
+
+.page-container-contacts-way-of-delivery-way-of-delivery-list {
+  color: #000000;
+  background-color: transparent;
+}
+
+
+.page-container-contacts-way-of-delivery-way-of-delivery-list li {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: extrabold;
+  line-height: 28px;
+}
+
+
+.inner-page {
+  font-family: Open Sans;
+  color: var(--basic-black);
+  background-color: var(--basic-white);
+}
+
+
+.page-catalog-title {
+  font-family: Gilroy;
+  font-size: 47px;
+  line-height: 58px;
+}
+
+
+/*Breadcrumbs*/
+
+.page-catalog-breadcrumbs {
+  list-style: none;
+}
+
+.page-catalog-breadcrumbs a {
+  color: var(--basic-black);
+  opacity: 0.3;
+}
+
+
+.page-catalog-breadcrumbs a:hover {
+  color: var(--basic-black);
+  opacity: 0.6;
+}
+
+
+.page-catalog-breadcrumbs a:focus {
+  color: var(--basic-black);
+  opacity: 0.1;
+}
+
+
+/*Filters*/
+
+
+.page-catalog-subtitle {
+  font-family: Gilroy;
+  color: #000000;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: #dcdcdc;
+}
+
+.page-catalog-filter {
+  background-color: var(--basic-grey-light);
+}
+
+.page-catalog-filter legend {
+  font-family: Gilroy;
+  font-style: extrabold;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.page-catalog-filter ul {
+  list-style: none;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  line-height: 19px;
+}
+
+
+.filter-input-checkbox {
+  border: 2px solid var(--basic-black);
+  align: inside;
+  width: 24px;
+  height: 24px;
+  radius: 2px;
+  background-color: transparent;
+}
+
+
+/*Catalog*/
+
+
+.page-catalog-content-list {
+  list-style: none;
+}
+
+.page-catalog-content-item a {
+  color: #000000;
+}
+
+.page-catalog-content-item h3 {
+  font-family: Gilroy;
+  font-style: extrabold;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.page-catalog-content-item-number {
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 18px;
+}
+
+
+/*Pagination*/
+
+
+.page-catalog-pagination-list {
+  list-style: none;
+}
+
+.page-catalog-pagination-item a {
+  color: #000000;
+  opacity: 0.3;
+  font-family: Gilroy;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+
+.page-catalog-pagination-item a:hover .page-catalog-pagination-item a:focus {
+  color: #000000;
+  opacity: 0.6;
+}
+
+
+.page-catalog-pagination-item a:active {
+  color: #000000;
+}
+
+
+.page-catalog-pagination-item page-catalog-pagination-item-current a,
+.page-catalog-pagination-item page-catalog-pagination-item-current a:hover,
+.page-catalog-pagination-item page-catalog-pagination-item-current a:focus,
+.page-catalog-pagination-item page-catalog-pagination-item-current a:active {
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Button */
+
+
+.button {
+  font: inherit;
+  text-align: center;
+  color: #000000;
+  vertical-align: top;
+  text-transform: uppercase;
+  border: none;
+}
+
+
+/* Main-footer */
+
+.page-footer main-footer {
+  background-color: var(--basic-dark);
+  background-position: absolute;
+  text-decoration: none;
+}
+
+.inner-page .page-footer {
+  background-color: var(--basic-dark);
+  background-position: absolute;
+}
+
+.page-footer main-footer-nav-wrapper-first {
+  color: rgba(255, 255, 255, 0.7);
+  list-style: none;
+}
+
+
+.page-footer main-footer-nav-wrapper-second {
+  color: var(--basic-white);
+  list-style: none;
+}
+
+.page-footer main-footer-nav-list-first li {
+  font-family: Open Sans;
+  font-size: 15px;
+  font-style: normal;
+  line-height: 20px;
+}
+
+.page-footer main-footer-nav-list-second li {
+  font-family: Gilroy;
+  font-size: 18px;
+  font-style: extrabold;
+  line-height: 22px;
+}
+
+/* Appointment */
+
+.appointment-item input {
+  font-family: Gilroy;
+  font-size: 14px;
+  color: var(--basic-dark);
+  background-color: #f2f2f2;
+  border: none;
+}
+
+
+.appointment-item input:focus {
+  border: 2px solid #f7e296;
+  background-color: transparent;
+}
